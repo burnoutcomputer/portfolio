@@ -10,7 +10,8 @@
 
     <!-- Bootstrap CSS File -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="styles.css">
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,11 +21,11 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-default" align="center" >
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header" >
+                <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -46,10 +47,70 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
+    <div class="container">
         
-        <img src="images/portrait.jpg" alt="portrait.jpg" width="200px" height="200">
-        
+
+        <div class="row">
+            <div class="col-xs-6 col-md-push-2 col-md-3 portrait">
+                <img src="images/portrait.jpg" class="img-responsive center-block img-rounded" alt="portrait.jpg">
+            </div>
+            <div class="col-xs-6 col-md-push-3 col-md-3">
+                <h3>Eric Nelson</h3>
+                <p>E-mail Address link
+                    <br> Phone number link</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6 col-md-push-2 col-md-3">
+                <h3 class="center">IT Skills</h3>
+                <p>
+                    Lorem
+                    <br> Ipsum
+                    <br> Dolor
+                    <br>
+                </p>
+            </div>
+
+            <div class="col-xs-6 col-md-push-4 col-md-3">
+                <h3 class="center">Portfolio</h3>
+                <p>Link 1
+                    <br> Link 2
+                    <br> Link 3
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6 col-md-push-2 col-md-3">
+                <h3 class="center">Education</h3>
+                <p>
+                    School/Degree 1
+                    <br> School/Degree 2
+                    <br> School/Degree 3
+                    <br>
+                </p>
+            </div>
+
+            <div class="col-xs-6 col-md-push-4 col-md-3">
+                <h3 class="center">Background</h3>
+                <p>Job 1
+                    <br> Job 2
+                    <br> Job 3
+                </p>
+            </div>
+        </div>
+
+        <h3></h3>
+
     </div>
+    
+    <footer>
+        <div class="container">
+        Copyright © 2015 Eric Nelson
+        </div>
+    
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
