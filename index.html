@@ -11,7 +11,7 @@
     <!-- Bootstrap CSS File -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,55 +21,58 @@
 </head>
 
 <body>
-    
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Home</a>
-                </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Home</a>
             </div>
-            <!-- /.container-fluid -->
-        </nav>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
     <div class="container">
-        
+
 
         <div class="row">
-            <div class="col-xs-6 col-md-push-2 col-md-3 portrait">
+            <div class="col-xs-6 col-md-offset-2 col-md-3 portrait">
                 <img src="images/portrait.jpg" class="img-responsive center-block img-rounded" alt="portrait.jpg">
             </div>
-            <div class="col-xs-6 col-md-push-3 col-md-3">
+            <div class="col-xs-6 col-md-3 col-md-offset-1">
                 <h3>Eric Nelson</h3>
-                <p>E-mail Address link
-                    <br> Phone number link</p>
+
+                <!-- Contact info below was intentionally fake. I get enough calls and emails from spammers who scraped my info from sites like Monster.com. I will not publish my contact info on publicly visible sites, and there is no exception to this. I am open to using an email relay if you can suggest one. -->
+                <p><a class="contact" href="mailto:null@null.com">E-mail Me</a>
+                    <br><a class="contact" href="tel:+155555555555">Call me</a></p>
             </div>
         </div>
 
         <div class="row">
             <div class="col-xs-6 col-md-push-2 col-md-3">
                 <h3 class="center">IT Skills</h3>
-                <p>
-                    Lorem
-                    <br> Ipsum
-                    <br> Dolor
-                    <br>
-                </p>
+                <ul>
+                    <li>CCNA Certified (In progress)</li>
+                    <li>A+ Certified (In progress)</li>
+                    <li>Linux Administration</li>
+                    <li>VMWare ESXi Administration</li>
+                    <li>HTML/CSS</li>
+                </ul>
             </div>
 
             <div class="col-xs-6 col-md-push-4 col-md-3">
@@ -84,32 +87,58 @@
         <div class="row">
             <div class="col-xs-6 col-md-push-2 col-md-3">
                 <h3 class="center">Education</h3>
-                <p>
-                    School/Degree 1
-                    <br> School/Degree 2
-                    <br> School/Degree 3
-                    <br>
+                <ul>
+                    <li>Hennepin Technical College</li>
+                    <ul>
+                        <li>AAS Degree</li>
+                        <ul>
+                            <li>Network Administration and Analysis (In progress)</li>
+                            <li>Desktop Support (In progress)</li>
+                            <li>.NET Developer (In progress)</li>
+                        </ul>
+                        <li>Advanced Technical Certificate</li>
+                        <ul>
+                            <li>Cisco Networking (In progress)</li>
+                            <li>Linux Networking (In progress)</li>
+                            <li>Windows Networking (In progress)</li>
+                        </ul>
+                        <li>Diploma</li>
+                        <ul>
+                            <li>Network Support Specialist (In progress)</li>
+                            <li>Desktop Support Specialist (In progress)</li>
+                        </ul>
+                    </ul>
+                </ul>
                 </p>
             </div>
 
             <div class="col-xs-6 col-md-push-4 col-md-3">
                 <h3 class="center">Background</h3>
-                <p>Job 1
-                    <br> Job 2
-                    <br> Job 3
-                </p>
+                <ul>
+                    <li>HP - Managed Print Supplies Program Specialist</li>
+                    <ul>
+                        <li>October 2014 - Present</li>
+                        <li>Responsible for ensuring customer devices order toner automatically, and that all customer devices are properly recorded and enrolled in the Automatic Toner Delivery Program</li>
+                    </ul>
+                    <li>Wheretolive.com - Technical Support Level I/II</li>
+                    <ul>
+                        <li>November 2013 - June 2014</li>
+                        <li>Answered inbound calls, contacted customers who submitted help tickets, setup up email on mobile devices by pushing configuration settings remotely, escalated cases as needed. Worked with engineers to identify and resolve large scale bugs and issues.</li>
+                    </ul>
+                
+                </ul>
             </div>
         </div>
 
         <h3></h3>
 
     </div>
-    
+
     <footer>
         <div class="container">
-        Copyright © 2015 Eric Nelson
+            Copyright © 2015 Eric Nelson
         </div>
-    
+
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -1,3 +1,5 @@
+/* Tags */
+
 html {
     /* Needed to fix footer at bottom of browser */
     position: relative;
@@ -9,6 +11,8 @@ body {
     padding-top: 80px;
     /* Set margin bottom allow for footer height */
     margin-bottom: 50px;
+    background-color:  #2C3539;
+    color: floralwhite;
 }
 
 footer {
@@ -27,6 +31,8 @@ footer {
     left: 0;
 }
 
+/* IDs */
+
 #main {
     background-color: #FBE7D4;
     padding-bottom: 25px;
@@ -38,10 +44,41 @@ footer {
     margin-bottom: 15px;
 }
 
+
+/* Classes */
+
+.contact {
+    
+}
+
 .navbar-inverse .btn {
     background-color: #CEAEBF;
     color: #5E2241;
 }
+
+
+/* Pseudo Classes */
+
+a:link {
+    color: #E5E4E2;
+}
+
+a:hover {
+    color: #82CAFA;
+}
+
+a:focus {
+    color: #82CAFA;
+}
+
+a:visited {
+    color: #E5E4E2;
+}
+
+
+
+
+
 .center {
-    text-align: center;
+   text-align: center;
 }
