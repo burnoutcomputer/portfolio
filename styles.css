@@ -15,6 +15,10 @@ body {
     color: floralwhite;
 }
 
+h3 {
+ background: #222;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -47,8 +51,8 @@ footer {
 
 /* Classes */
 
-.contact {
-    
+#contact {
+    font-size: 1.3em;
 }
 
 .navbar-inverse .btn {
@@ -61,6 +65,7 @@ footer {
 
 a:link {
     color: #E5E4E2;
+    text-decoration: none;
 }
 
 a:hover {
