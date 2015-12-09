@@ -11,12 +11,12 @@ body {
     padding-top: 80px;
     /* Set margin bottom allow for footer height */
     margin-bottom: 50px;
-    background-color:  #2C3539;
+    background-color: #2C3539;
     color: floralwhite;
 }
 
 h3 {
- background: #222;
+    background: #222;
 }
 
 footer {
@@ -34,6 +34,7 @@ footer {
     right: 0;
     left: 0;
 }
+
 
 /* IDs */
 
@@ -80,10 +81,27 @@ a:visited {
     color: #E5E4E2;
 }
 
-
-
-
-
 .center {
-   text-align: center;
+    text-align: center;
+}
+
+.navbar-header {
+    float: none;
+    text-align: center;
+}
+
+.navbar-brand {
+    display: inline-block;
+    float: none;
+    text-align: center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
 }
