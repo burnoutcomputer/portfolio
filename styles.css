@@ -13,10 +13,12 @@ body {
     margin-bottom: 50px;
     background-color: #2C3539;
     color: floralwhite;
+    position: relative;
 }
 
 h3 {
     background: #222;
+    padding: 5px;
 }
 
 footer {
@@ -49,11 +51,34 @@ footer {
     margin-bottom: 15px;
 }
 
+#home {
+    padding-top: 60px;
+    margin-bottom: -40px;
+}
+
+#skills {
+    padding-top: 60px;
+    margin-bottom: -40px;
+}
+
+#portfolio {
+    padding-top: 60px;
+    margin-bottom: -40px;
+}
+
+#education {
+    padding-top: 60px;
+}
+
+#background {
+    padding-top: 60px;
+}
+
 
 /* Classes */
 
-#contact {
-    font-size: 1.3em;
+.contact {
+    font-size: 1.2em;
 }
 
 .navbar-inverse .btn {
@@ -69,6 +94,10 @@ a:link {
     text-decoration: none;
 }
 
+a:visited {
+    color: #E5E4E2;
+}
+
 a:hover {
     color: #82CAFA;
 }
@@ -77,31 +106,6 @@ a:focus {
     color: #82CAFA;
 }
 
-a:visited {
-    color: #E5E4E2;
-}
-
 .center {
-    text-align: center;
-}
-
-.navbar-header {
-    float: none;
-    text-align: center;
-}
-
-.navbar-brand {
-    display: inline-block;
-    float: none;
-    text-align: center;
-}
-
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-    vertical-align: top;
-}
-
-.navbar .navbar-collapse {
     text-align: center;
 }
